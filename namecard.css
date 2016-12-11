@@ -1,0 +1,81 @@
+* {
+    /*   border: 1px solid black; */
+    font-family: 微軟正黑體;
+    position: relative;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(80, 180, 242, 0.03);
+    border-top: 15px solid #0477BF;
+    border-bottom: 15px solid #0477BF;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.namecard {
+    width: 350px;
+    height: 220px;
+    padding: 20px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.name {
+    letter-spacing: 2px;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.job {
+    font-size: 16px;
+    color: rgba(80, 180, 242, 1);
+}
+
+.little_eng {
+    letter-spacing: 0px;
+    font-size: 16px;
+}
+
+.description {
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.circle-bot {
+    position: absolute;
+    bottom: -80px;
+    right: 80px;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-color: rgba(80, 180, 242, 1);
+}
+
+.circle-top {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: -40px;
+    top: -40px;
+    border-radius: 100%;
+    border: 3px solid rgba(80, 180, 242, 1);
+}
+
+.mark {
+    position: fixed;
+    font-size: 300px;
+    left: 100px;
+    top: 50px;
+    color: rgba(0, 0, 0, 0.06);
+}
